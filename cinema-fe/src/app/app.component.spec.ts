@@ -22,7 +22,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('cinema-fe');
   });
 
-  it('should render title in a h1 tag', () => {
+  it('should render user in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
